@@ -6,22 +6,36 @@
 
   <body>
     <!-- Create a navigation -->
-
+    <nav>
+      <ul>  
+        <li><a href="#"><strong>Home</strong></a></li>
+        <li><a href="#"><strong>About</strong></a></li>
+        <li><a href="#"><strong>Contact</strong></a></li>
+      </ul>
+    </nav>
     <!-- Add a header with page heading -->
-
+      <header><h1>All About Me</h1></header>
     <!-- Your main section will hold all your main page content -->
     <main>
       <!-- Create a section with paragraph text about yourself -->
-      <section></section>
+      <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
 
       <!-- insert an image within the figure element relating to you -->
       <figure>
         <!-- Use the figcaption element for a caption to your image -->
-        <figcaption></figcaption>
+        <img src="https://australianbutterflies.com/ab-content/uploads/2018/08/blue-banded-eggfly-australian-butterfly-sanctuary.jpg">
+        <figcaption><em><strong>I like butterflies!</strong></em></figcaption>
       </figure>
 
       <!-- add aside content of your choice, could be a paragraph, lists -->
-      <aside></aside>
+      <aside>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+      </aside>
 
       <!-- Create a table with your daily schedule -->
       <!-- add a table title -->
@@ -29,28 +43,32 @@
       <!-- Populate the table with your info -->
       <section class="container">
         <table>
-          <thead></thead>
+          <thead>
+            <th>Day</th>
+            <th>Times</th>
+
+          </thead>
 
           <tbody>
             <tr>
-              <td class="left"><h3></h3></td>
-              <td></td>
+              <td class="left"><h3>Monday</h3></td>
+              <td>5:00 - 7:00 PM</td>
             </tr>
             <tr>
-              <td class="left"><h3></h3></td>
-              <td></td>
+              <td class="left"><h3>Tuesday</h3></td>
+              <td>5:00 - 7:00 PM</td>
             </tr>
             <tr>
-              <td class="left"><h3></h3></td>
-              <td></td>
+              <td class="left"><h3>Wednesday</h3></td>
+              <td>5:00 - 7:00 PM</td>
             </tr>
             <tr>
-              <td class="left"><h3></h3></td>
-              <td></td>
+              <td class="left"><h3>Thursday</h3></td>
+              <td>5:00 - 7:00 PM</td>
             </tr>
             <tr>
-              <td class="left"><h3></h3></td>
-              <td></td>
+              <td class="left"><h3>Friday</h3></td>
+              <td>5:00 - 7:00 PM</td>
             </tr>
           </tbody>
         </table>
@@ -66,26 +84,32 @@
           <!--Text entry-->
           <!-- You'll need 3 labels/inputs to accept the following: 
             1. Name, 2. Email, 3. Subject -->
-
+            <label>Name:</label>
+          <input type="text" name="name"> <br>
+          <label>Email:</label>
+          <input type="text" name="email"><br>
+          <label>Subject:</label>
+          <input type="text" name="Subject">
           
 
           <!--Create Radio button-->
           <!-- We want to ask the user if they would like a response back-->
-
-          <span>Would you like a response back?</span>
-         
+            <br>
+          <span>Would you like a response back?</span>         
           <!-- Create 2 radio buttons for Yes & No options-->
-
-
+              <input type="radio">
+              <label>Yes</label>
+              <input type="radio">
+              <label>No</label>
+            <br>
             <!-- Create a textbox for user to type a message -->
-
+              <textarea name="comments" minlength="1" maxlength="280">Your message here</textarea>
           <!-- (Challenge) For Textbox, can use minlength/maxlength or regex to limit-->
           
 
-          <br />
-
+          <br>
           <!-- Add a submit button -->
-        
+          <input type="submit" value="submit">
 
         </form>
       </section>
@@ -93,8 +117,8 @@
 
       <!-- Customize your footer with text of your choice -->
     <footer>
-      <p></p>
-      <p></p>
+      <p>Excepteur sint occaecat cupidatat non proident,</p>
+      <p> sunt in culpa qui officia deserunt mollit anim id est laborum</p>
     </footer>
   </body>
 </html>

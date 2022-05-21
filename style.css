@@ -7,7 +7,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #010e80;
+	background-color: #f5be9e;
 	display: table;
 	width: 100%;
 }
@@ -18,7 +18,7 @@ nav li {
 
 li a {
 	display: block;
-	color: white;
+	color: rgb(17, 16, 16);
 	text-align: center;
 	padding: 30px 30px;
 	text-decoration: none;
@@ -30,7 +30,7 @@ li a:hover {
 
 h2 a {
 	padding: 33px 25px;
-	color: white;
+	color: rgb(184, 153, 153);
 	text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ h2 a:hover {
 
 figcaption{
   text-align:left;
+
 }
 
 header {
